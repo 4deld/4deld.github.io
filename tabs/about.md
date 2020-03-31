@@ -8,4 +8,36 @@ title: About
 # MIT License
 ---
 
-> **Note**: hi,, um..
+##Introduction
+
+Hi, I am a sophomore of **Sunrin Internet High School**.
+I am Korean, live in Seoul.
+My posts will be in English because I reckon English is very significant for programmers.
+I like algorithm, web programming, and swimming.
+[MY GITHUB](https://github.com/rlapo213)
+
+
+##My plan
+
+I will post my Development log, Python Grammar, solving algorithm problems.
+I hope you learn anything when you come into my blog, not just going back.
+
+
+##Development log
+
+I swear Development log is quite important. 
+Because it shows what you've done, what you've felt, etc.
+It'll be a good weapon in many ways.
+So, I will write the Development log when I do a project, an assignment, a thing that I feel valuable.
+
+Development log
+ - **The Date
+ - **Title(What is it)
+ - **Description(Give your future self a break, help them remember)
+ - **What I was in charge of
+ - **What was the problem(How was it solved? or unsolved?)
+ - **Feelings(what you felt)
+ - **Desired things & Future plans
+
+Don't be pressured to fit the table of contents.
+If the table of contents are in Development log, that'll be all.
