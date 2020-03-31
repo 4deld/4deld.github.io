@@ -14,7 +14,9 @@ Hi, I am a sophomore of **Sunrin Internet High School**.
 
 I'm Korean, living in Seoul.
 
-Why is my blog in English? Because I reckon English is very significant for programmers. I want to study English hard.
+Why is my blog in English? Because I reckon English is very significant for programmers. 
+
+I want to study English hard.
 
 So, I'll try to write my posts in English
 
