@@ -12,41 +12,44 @@ title: About
 
 Hi, I am a sophomore of **Sunrin Internet High School**.
 
-I am Korean, live in Seoul.
+I'm Korean, living in Seoul.
 
-My posts will be in English because I reckon English is very significant for programmers.
+Why is my blog in English? Because I reckon English is very significant for programmers. I want to study English hard.
 
-I like algorithm, web programming, and swimming.
+So, I'll try to write my posts in English
+
+I like problem solving, web programming, and swimming.
 
 [MY GITHUB](https://github.com/rlapo213)
 
 
 ## My plan
 
-I will post my Development log, Python Grammar, solving algorithm problems.
+I will post my Development logs, Python Grammar, solving algorithm problems.
 
 I hope you learn anything when you come into my blog, not just going back.
 
 
 ## Development log
 
-I swear Development log is quite important. 
+I swear Development logs are quite important. 
 
-Because it shows what you've done, what you've felt, etc.
+Because they shows what you've done, what you've felt, etc.
 
 It'll be a good weapon in many ways.
 
 So, I will write the Development log when I do a project, an assignment, a thing that I feel valuable.
 
 
-Development log
+***Development log***
  - **The Date**
  - **Title(What is it)**
  - **Description(Give your future self a break, help them remember)**
- - **What I was in charge of**
+ - **What you were in charge of**
  - **What was the problem(How was it solved? or unsolved?)**
  - **Feelings(what you felt)**
  - **Desired things & Future plans**
+
 
 Don't be pressured to fit the table of contents.
 
