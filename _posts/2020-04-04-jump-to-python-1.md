@@ -1,5 +1,5 @@
 ---
-title: [Python] Do it! Jump To Python 1 
+title: Python Do it! Jump To Python 1 
 date: 2020-04-04 15:04:30 +0900
 categories: [Programming Language Study, Python]
 tags: [python] 
