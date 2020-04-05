@@ -1,8 +1,10 @@
 ---
-title: Python Do it! Jump To Python 1 
+title: Python Do it! Jump To Python 1
 date: 2020-04-04 15:04:30 +0900
 categories: [Programming Language Study, Python]
-tags: [python] 
+tags: [python]
+seo:
+  date_modified: 2020-04-04 15:06:31 +0900
 ---
 
 I learned Python when I was in middle school. 
