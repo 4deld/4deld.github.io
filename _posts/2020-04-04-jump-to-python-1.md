@@ -30,33 +30,35 @@ If Python is installed Python with that link, you can start Python by clicking t
 ## Four arithmetic operations
 
 
-## Plus
+#### Plus
 
 ```python
 >>>3+4
 7
 ```
 
-## Minus
+#### Minus
 
 ```python
 >>>3-4
 -1
 ```
 
-## Divide
+#### Divide
 
 ```python
 >>>3/4
 0.75
 ```
 
-## Multiply
+#### Multiply
 
 ```python
 >>>3*4
 12
 ```
+
+
 
 ## Variable
 
@@ -68,6 +70,8 @@ Python is called an `interpreted language` because it goes through an interprete
 4
 ```
 
+
+
 ## Print
 
 ```python
@@ -75,6 +79,8 @@ Python is called an `interpreted language` because it goes through an interprete
 >>>print(a)
 1
 ```
+
+
 
 ## Comments
 
@@ -100,6 +106,8 @@ hello
 '''
 ```
 
+
+
 ## Case sensitive
 
 Python distinguishes `uppercase and lowercase letters`.
@@ -110,6 +118,8 @@ Python distinguishes `uppercase and lowercase letters`.
 >>>a+A
 10
 ```
+
+
 
 ## indentation
 
