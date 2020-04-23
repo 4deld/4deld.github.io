@@ -89,7 +89,7 @@ Single line comment
 #
 
 ```python
->>># Crosshatch is used as a single line comment
+# Crosshatch is used as a single line comment
 ```
 
 Multiline comments
