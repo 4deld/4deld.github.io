@@ -23,4 +23,11 @@ If you wonder how to install and start Python, click this [link](https://wikidoc
 
 
 
+asdf
+
+If Python is installed Python with that link, you can start Python by clicking the Window button and running IDLE.
+
+
+
+
 
