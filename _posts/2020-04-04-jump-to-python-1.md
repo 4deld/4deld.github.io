@@ -29,9 +29,9 @@ If Python is installed Python with that link, you can start Python by clicking '
 
 ## Four arithmetic operations
 
-'''python
+```python
 3+4
-'''
+```
 
 
 
