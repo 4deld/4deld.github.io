@@ -25,7 +25,7 @@ If you wonder how to install and start Python, click this [link](https://wikidoc
 
 # Python Basic Grammar
 
-If Python is installed Python with that link, you can start Python by clicking `the Window button` and running `IDLE`.
+If Python is installed Python with that link, you can start Python by clicking the `Window button` and running `IDLE`.
 
 ## Four arithmetic operations
 
