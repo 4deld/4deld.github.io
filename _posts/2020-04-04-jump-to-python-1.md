@@ -30,7 +30,8 @@ If Python is installed Python with that link, you can start Python by clicking '
 ## Four arithmetic operations
 
 ```python
-3+4
+>>>3+4
+7
 ```
 
 
