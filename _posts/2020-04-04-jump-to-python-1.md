@@ -80,7 +80,7 @@ Python is called an `interpreted language` because it goes through an interprete
 
 Single line comment
 
-'#'
+#
 
 ```python
 >>># Crosshatch is used as a single line comment
@@ -89,7 +89,6 @@ Single line comment
 Multiline comments
 
 '''
-
 '''
 
 ```python
