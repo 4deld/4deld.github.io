@@ -100,9 +100,9 @@ Multiline comments
 
 ```python
 '''
-triple-quotation mark is used as multiline comment
+triple-quotation mark is used as multiline comments
 hi
-hello
+how are you
 '''
 ```
 
