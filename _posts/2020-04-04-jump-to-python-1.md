@@ -29,6 +29,7 @@ If Python is installed Python with that link, you can start Python by clicking '
 
 ## Four arithmetic operations
 
+
 ## Plus
 
 ```python
@@ -57,7 +58,26 @@ If Python is installed Python with that link, you can start Python by clicking '
 12
 ```
 
+## Variable
 
+Python is called an interpreted language because it goes through an interpreter, which turns code you write into the language understood by your computer's processor. Therefore, Python variables' data types are assigned while being interpreted.
+
+```python
+>>>a=1
+>>>a+3
+4
+```
+
+## Print
+
+Python distinguishes upper and lowercase letters.
+
+```python
+>>>a=3
+>>>A=7
+>>>a+A
+10
+```
 
 
 
