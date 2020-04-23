@@ -60,7 +60,7 @@ If Python is installed Python with that link, you can start Python by clicking `
 
 ## Variable
 
-Python is called `an interpreted language` because it goes through an interpreter, which turns code you write into the language understood by your computer's processor. Therefore, Python variables' `data types` are assigned while being interpreted.
+Python is called an `interpreted language` because it goes through an interpreter, which turns code you write into the language understood by your computer's processor. Therefore, Python variables' `data types` are assigned while being interpreted.
 
 ```python
 >>>a=1
@@ -70,7 +70,37 @@ Python is called `an interpreted language` because it goes through an interprete
 
 ## Print
 
-Python distinguishes `upper and lowercase letters`.
+```python
+>>>a=1
+>>>print(a)
+1
+```
+
+## Comments
+
+Single line comment
+
+'#'
+
+```python
+>>># Crosshatch is used as a single line comment
+```
+
+Multiline comments
+
+'''
+
+'''
+
+```python
+'''
+triple-quotation mark is used as multiline comment
+'''
+```
+
+## Case sensitive
+
+Python distinguishes `uppercase and lowercase letters`.
 
 ```python
 >>>a=3
@@ -79,7 +109,25 @@ Python distinguishes `upper and lowercase letters`.
 10
 ```
 
+## indentation
 
-a
+Python does not use braces, unlike C, Java and JS. Instead, It uses indentation. It's okay if you don't understand the code below. We'll learn about that later.
+
+```python
+>>>a=2
+>>>if a > 1 :
+       print(a)
+       
+2
+```       
+
+The indentation can be used by clicking `tab key` or clicking `space bar` four times.
+If you miss `the indentation`, Python will print out an `error message` or `unintended result`.
+
+
+
+
+
+
 
 
