@@ -25,7 +25,7 @@ If you wonder how to install and start Python, click this [link](https://wikidoc
 
 # Python Basic Grammar
 
-If Python is installed Python with that link, you can start Python by clicking 'the Window button' and running 'IDLE'.
+If Python is installed Python with that link, you can start Python by clicking `the Window button` and running `IDLE`.
 
 ## Four arithmetic operations
 
@@ -60,7 +60,7 @@ If Python is installed Python with that link, you can start Python by clicking '
 
 ## Variable
 
-Python is called an interpreted language because it goes through an interpreter, which turns code you write into the language understood by your computer's processor. Therefore, Python variables' data types are assigned while being interpreted.
+Python is called `an interpreted language` because it goes through an interpreter, which turns code you write into the language understood by your computer's processor. Therefore, Python variables' `data types` are assigned while being interpreted.
 
 ```python
 >>>a=1
@@ -70,7 +70,7 @@ Python is called an interpreted language because it goes through an interpreter,
 
 ## Print
 
-Python distinguishes upper and lowercase letters.
+Python distinguishes `upper and lowercase letters`.
 
 ```python
 >>>a=3
@@ -79,5 +79,7 @@ Python distinguishes upper and lowercase letters.
 10
 ```
 
+
+a
 
 
