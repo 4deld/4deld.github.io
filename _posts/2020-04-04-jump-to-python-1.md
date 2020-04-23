@@ -94,6 +94,8 @@ Multiline comments
 ```python
 '''
 triple-quotation mark is used as multiline comment
+hi
+hello
 '''
 ```
 
