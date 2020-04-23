@@ -36,7 +36,26 @@ If Python is installed Python with that link, you can start Python by clicking '
 7
 ```
 
+## Minus
 
+```python
+>>>3-4
+-1
+```
+
+## Divide
+
+```python
+>>>3/4
+0.75
+```
+
+## Multiply
+
+```python
+>>>3*4
+12
+```
 
 
 
