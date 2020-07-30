@@ -1,0 +1,57 @@
+---
+title: Gangle Development Log
+date: 2020-07-30 14:11:30 +0900
+categories: [Miscellaneous Talk, Recent Condition]
+tags: [status]     # TAG names should always be lowercase
+seo:
+  date_modified: 2020-07-30 14:11:30 +0900
+---
+
+I'm sorry that I came so late..
+
+## My school life
+
+Because of the COVID-19, I was so busy.
+
+Seniors go to school every week, but sophomores and freshmen go to school every other week.
+
+So I am very tired in the week I have to go to school.
+
+The break time for each class has been reduced to five minutes.
+
+But our teachers always have many things to teach.
+
+They often exceed class hours *(except few nice teachers)*.
+
+Then we don't have time to rest and prepare for the next class.
+
+Also there are performance assessments at all times when I go to school.
+
+It's impossible to live a leisurely life.
+
+I pursue relaxing and comfortable life. T.T
+
+## About a month ago
+
+The midterm exam was over.
+
+I was shocked by my score.
+
+I had played League Of Legends for five years. I thought it was time to stop. I stopped playing League Of Legends.
+
+I planned IWOP classes (My School Club) for freshmen and developed Cyto Server (Mobile App Development Competition Work) for two weeks right away.
+
+After that, The final exam was only two weeks away.
+
+I studied really hard. I almost went **CRAZY**.
+
+## Future plans
+
+In fact, I wasn't supposed to write a post.
+
+Because I developed the Cyto Server too dirty.
+
+I was going to make it again. But the time given was so short that my colleague said that he don't think I can do that.
+
+***I'm going to post a lot!!***
+
