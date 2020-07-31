@@ -1,3 +1,12 @@
+---
+title: My nickname
+date: 2020-07-31 23:11:41 +0800
+categories: [Miscellaneous Talk, About Me]
+tags: [nickname]
+seo:
+  date_modified: 2020-07-31 23:11:41 +0800
+---
+
 Today, I'm gonna talk about my nickname, *POTATO*.
 
 The story goes back to 2013.
