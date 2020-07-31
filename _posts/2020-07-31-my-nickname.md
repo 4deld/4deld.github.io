@@ -19,7 +19,7 @@ I ate potatoes with my head down. Because I've hated dirty things since I was yo
 
 Like this↓
 
-![Desktop View]({{ "/assets/img/sample/mockup.png" | relative_url }})
+![Desktop View]({{ "/assets/img/sample/potato.png" | relative_url }})
 
 He looked at me and said I eat potatoes like sheep. 
 
