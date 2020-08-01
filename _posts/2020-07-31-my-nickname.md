@@ -1,5 +1,5 @@
 ---
-title: My nickname
+title: My Nickname
 date: 2020-07-31 23:11:41 +0900
 categories: [Miscellaneous Talk, About Me]
 tags: [nickname]
