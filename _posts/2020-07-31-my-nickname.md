@@ -7,6 +7,8 @@ seo:
   date_modified: 2020-08-01 00:24:15 +0900
 ---
 
+## POTATO
+
 Today, I'm gonna talk about my nickname, *POTATO*.
 
 The story goes back to 2013.
@@ -38,3 +40,17 @@ I asked Junha how to write 'school'. He told me s c h o o l in alphabet. This is
 Maybe I won't forget how to write school even when I'm 80.
 
 Thanks, Junha.
+
+
+## RLAPO
+
+Next, I'm going to talk about *RLAPO*.
+
+It's usually my ID.
+
+I created it by combining my name and nickname.
+
+My name is 김재현 and If I type it on the keyboard, the result is rlawogus.
+
+rlawogus + potato -> *RLAPO*.
+
