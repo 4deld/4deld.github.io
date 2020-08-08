@@ -47,6 +47,7 @@ So, I will write the Development log when I do a project, an assignment, a thing
  - **The Date**
  - **Title(What is it)**
  - **Description(Give your future self a break, help them remember)**
+ - **Tech Stack**
  - **What you were in charge of**
  - **What was the problem(How was it solved? or unsolved?)**
  - **Feelings(what you felt)**
