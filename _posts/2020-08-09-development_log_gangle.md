@@ -59,17 +59,17 @@ soon
 
 ## Desired things & Future plans
 
-- **Change Ranking Style ( TOP3 color )**
+- Change Ranking Style ( TOP3 color )
 
-- **Make button that can control the volume or ON/OFF the sound**
+- Make button that can control the volume or ON/OFF the sound
 
-- **Allow game to start by pressing Enter**
+- Allow game to start by pressing Enter
 
-- **Enable player to view scores while playing a game**
+- Enable player to view scores while playing a game
 
-- **Bug that becomes gameover by pressing the JUMP card ↑ on the third.**
+- Bug that becomes gameover by pressing the JUMP card ↑ on the third.
 
-- **Let cards float with player**
+- Let cards float with player
 
-- **Fix Ranking bug**
+- Fix Ranking bug
 
