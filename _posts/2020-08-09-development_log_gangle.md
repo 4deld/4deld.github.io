@@ -23,6 +23,8 @@ Gangle(Running game)
 
 ## Description(Give your future self a break, help them remember)
 
++(game concept will be added)
+
 This won the silver prize in the DIGITAL CONTENTS COMPETITION 2019.
 
 The types of cards are REROLL, JUMP1, JUMP2, and WIFI DISCONNECTED.
@@ -39,7 +41,7 @@ WIFI DISCONNECTED - game over
 
 ## Tech Stack
 
-GCP, javascript, Node.js, Phaser3, LOWDB,
+GCP, javascript, Node.js, Phaser3, LOWDB
 
 ## What you were in charge of
 
