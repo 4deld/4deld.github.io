@@ -13,7 +13,7 @@ First Development log is Gangle.
 
 ## The Date
 
-8/12/2019 ~ 24/12/2019
+2019/12/8 ~ 2019/12/24
 
 After the final exam, I developed Gangle.
 
