@@ -4,7 +4,7 @@ date: 2020-08-17 08:21:30 +0900
 categories: [Development Log, Cyto]
 tags: [development log, competition]     # TAG names should always be lowercase
 seo:
-  date_modified: 2020-08-17 08:21:30 +0900
+  date_modified: 2020-08-24 11:33:22 +0900
 ---
 
 # Development log - Cyto

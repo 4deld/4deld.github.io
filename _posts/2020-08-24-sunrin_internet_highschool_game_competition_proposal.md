@@ -2,9 +2,9 @@
 title: I submitted a proposal to the school.
 date: 2020-08-24 16:04:30 +0900
 categories: [Miscellaneous Talk, Recent Condition]
-tags: [competition,status]
+tags: [competition, status]
 seo:
-  date_modified: 2020-08-24 16:04:30 +0900
+  date_modified: 2020-08-24 15:42:37 +0900
 ---
 
 As the title says, I submitted the proposal to `Sunrin Internet High School` today.
