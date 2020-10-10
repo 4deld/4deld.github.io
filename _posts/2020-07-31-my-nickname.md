@@ -46,11 +46,27 @@ Thanks, Junha.
 
 Next, I'm going to talk about *RLAPO*.
 
-It's usually my ID.
+It usually becomes my ID.
 
 I created it by combining my name and nickname.
 
-My name is 김재현 and If I type it on the keyboard, the result is rlawogus.
+My Korean name is 김재현 and If I type it on the keyboard, the result is rlawogus.
 
-rlawogus + potato -> *RLAPO*.
+I added rlawogus and potato, then it became *RLAPO*.
+
+
+## END
+
+In usual, I get a lot of questions about why my nickname is potato.
+
+I don't answer them because I want people who ask to get to know naturally while they are exploring my GITHUB. (like kind of puzzle ..)
+
+Here's my [GITHUB](https://github.com/rlapo213)!
+
+My English can be awkward. If there’s inconvenience, please send me an email so that I can fix that.
+
+Email : rlapo@naver.com
+
+Thank you for reading my post.
+
 
