@@ -35,13 +35,13 @@ The types of cards are REROLL, JUMP1, JUMP2, and WIFI DISCONNECTED.
 
 Three cards are randomly displayed with the directional key each time.
 
-Pressing the direction key activates *the effect of the card*.
+Pressing the direction key activates `the effect of the card`.
 
-*REROLL* - updates the three cards randomly.
+`REROLL` - updates the three cards randomly.
 
-*JUMP1,2* - the character jumps. (The height that the character jumps is higher when pressing JUMP2 than when pressing JUMP1.)
+`JUMP1,2` - the character jumps. (The height that the character jumps is higher when pressing JUMP2 than when pressing JUMP1.)
 
-*WIFI DISCONNECTED* - game over
+`WIFI DISCONNECTED` - game over
 
 ![Desktop View]({{ "/assets/img/sample/Gangle.png" | relative_url }})
 
@@ -55,13 +55,13 @@ I was in charge of frontend, backend except phaser
 
 ## What was the problem(How was it solved? or unsolved?)
 
-The problem was in *Ranking*.
+The problem was in `Ranking`.
 
-I thought this logic would be worked. First, receive *the username* and *id value* from the client and save them in the database. Second, after the game is over, *the game score* is put where *the matching id* exists. 
+I thought this logic would be worked. First, receive `the username` and `id value` from the client and save them in the database. Second, after the game is over, `the game score` is put where `the matching id` exists. 
 
-However, the id value *changed* whenever other users came in from the server, so the score became other users'(-UNSOLVED).
+However, the id value `changed` whenever other users came in from the server, so the score became other users'(-UNSOLVED).
 
-it became *gameover* by pressing the JUMP card ↑ on the third .
+it became `gameover` by pressing the JUMP card ↑ on the third .
 
 I don't know why. Because it's the problem of the Phaser developer (-UNSOLVED).
 
@@ -75,11 +75,11 @@ I learned node.js in the club, but I didn't understand well. However, with the t
 
 I think the fact that the bug in ranking was caused by using the database without knowing well the interaction between the server and the client.
 
-I developed the server for the first time and won an award with it, so I think it's a project with a lot of *affection*.
+I developed the server for the first time and won an award with it, so I think it's a project with a lot of `affection`.
 
-I was absorbed in developing server, used to stay up all night *coding*. The exam was over and it was more fun because it was a work to participate in the competition. 
+I was absorbed in developing server, used to stay up all night `coding`. The exam was over and it was more fun because it was a work to participate in the competition. 
 
-But it was such a shame. Phaser and server were combined and distributed for a day or two, there were many bugs, errors, and points to modify *(details)*.
+But it was such a shame. Phaser and server were combined and distributed for a day or two, there were many bugs, errors, and points to modify `(details)`.
 
 It was almost incomplete because we had to go through the judging process without fixing that part.
 
@@ -87,7 +87,7 @@ It would have been better if I had distributed it for a week after the exam with
 
 That's too bad. The server seems to be fixed well if you fix the foundations first.
 
-I think it was possible because my *senior* helped me even though he was participating in the competition.  I think senior is really important in our school.
+I think it was possible because my `senior` helped me even though he was participating in the competition.  I think senior is really important in our school.
 
 ## Desired things & Future plans
 
