@@ -43,6 +43,8 @@ Pressing the direction key activates *the effect of the card*.
 
 *WIFI DISCONNECTED* - game over
 
+![Desktop View]({{ "/assets/img/sample/Gangle.png" | relative_url }})
+
 ## Tech Stack
 
 GCP, javascript, Node.js, Phaser3, lowdb
