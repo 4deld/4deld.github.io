@@ -4,7 +4,7 @@ date: 2022-01-10 00:28:25 +0900
 categories: [Miscellaneous Talk, Recent Condition]
 tags: [status]     # TAG names should always be lowercase
 seo:
-  date_modified: 2022-03-04 00:30:12 +0900
+  date_modified: 2022-03-04 00:37:43 +0900
 ---
 
 **I AM SO SORRY I HAD NOT POSTED**
