@@ -27,16 +27,16 @@ I like problem solving, web programming, and swimming.
 
 ## My plan
 
-I will post my Development logs, Python Grammar, solving algorithm problems.
+I will post my Development logs, algorithms, problem solvings.
 
-I hope you learn anything when you come into my blog, not just going back.
+I hope you learn something when you come into my blog, not just going back.
 
 
 ## Development log
 
 I swear Development logs are quite important. 
 
-Because they shows what you've done, what you've felt, etc.
+Because they show what you've done, what you've felt, and where you head.
 
 It'll be a good weapon in many ways.
 
@@ -45,8 +45,8 @@ So, I will write the Development log when I do a project, an assignment, a thing
 
 ***Development log***
  - **The Date**
- - **Title(What is it)**
- - **Description(Give your future self a break, help them remember)**
+ - **Title(What it is)**
+ - **Description(to give your future a break, help you remember easily)**
  - **Tech Stack**
  - **What you were in charge of**
  - **What was the problem(How was it solved? or unsolved?)**
