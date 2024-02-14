@@ -18,14 +18,14 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # Replace with your domain, e.g. 'https://username.github.io'
-url: 'https://rlapo213.github.io'
+url: 'https://4deld.github.io'
 
 author: Kim Jae Hyun                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: rlapo213           # change to your github username
+  username: 4deld          # change to your github username
 
 twitter:
   username:          # change to your twitter username
@@ -36,7 +36,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/rlapo213       # change to your github homepage
+    - https://github.com/4deld       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -64,7 +64,7 @@ google_analytics:
 
 disqus:
   comments: true  # boolean type, the global switch for posts comments.
-  shortname: 'https-rlapo213-github-io'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: 'https-4deld-github-io'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting, available values:
