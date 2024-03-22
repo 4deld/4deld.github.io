@@ -8,14 +8,12 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 감자/POTATO                          # the main title
+title: 감자양(PotatoSheep)                         # the main title
 
 tagline: MY BLOG  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  About a person living an extraordinary life
 
 # Replace with your domain, e.g. 'https://username.github.io'
 url: 'https://4deld.github.io'
@@ -32,7 +30,7 @@ twitter:
 
 social:
   name: Kim Jae Hyun                 # it will shows as the copyright owner in Footer
-  email: rlapo@naver.com             # change to your email address
+  email: deld4@icloud.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
