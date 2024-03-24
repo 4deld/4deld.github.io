@@ -4,7 +4,7 @@ date: 2020-08-09 16:50:30 +0900
 categories: [Development Log, Gangle]
 tags: [development log, competition]    # TAG names should always be lowercase
 seo:
-  date_modified: 2020-10-23 21:20:30 +0900
+  date_modified: 2024-03-25 01:01:31 +0900
 ---
 
 # Development log - Gangle

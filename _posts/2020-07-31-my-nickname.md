@@ -4,7 +4,7 @@ date: 2020-07-31 23:11:41 +0900
 categories: [Miscellaneous Talk, About Me]
 tags: [nickname]
 seo:
-  date_modified: 2020-10-10 23:45:14 +0900
+  date_modified: 2024-03-25 01:01:31 +0900
 ---
 
 ## POTATO

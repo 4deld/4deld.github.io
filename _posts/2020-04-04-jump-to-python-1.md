@@ -4,7 +4,7 @@ date: 2020-04-04 15:04:30 +0900
 categories: [Programming Language Study, Python]
 tags: [python]
 seo:
-  date_modified: 2020-04-23 23:55:01 +0900
+  date_modified: 2024-03-25 01:01:31 +0900
 ---
 
 I learned Python when I was in middle school. 

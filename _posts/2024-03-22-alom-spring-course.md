@@ -4,7 +4,7 @@ date: 2024-03-20 11:51:17 +0900
 categories: [Alom Spring Course, Alom]
 tags: [spring, java]
 seo:
-  date_modified: 2024-03-25 00:52:19 +0900
+  date_modified: 2024-03-25 01:01:31 +0900
 ---
 
 ## Why I joined the Alom club

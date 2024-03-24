@@ -4,7 +4,7 @@ date: 2020-08-24 16:04:30 +0900
 categories: [Miscellaneous Talk, Recent Condition]
 tags: [competition, status]
 seo:
-  date_modified: 2020-08-24 15:45:57 +0900
+  date_modified: 2024-03-25 01:01:31 +0900
 ---
 
 As the title says, I submitted the proposal to `Sunrin Internet High School` today.
