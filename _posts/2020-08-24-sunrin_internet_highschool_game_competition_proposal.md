@@ -47,3 +47,9 @@ Thank you for reading it out.
 ***
 
 As I wrote above, there were so many memos and thoughts that it took me a long time to distinguish whether I could write them in my proposal or use as supporting factors for my opinions. I think I was able to finish writing because a teacher said it is right to express the wrong thing when I excluded emotions and thought rationally.
+
+My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
+
+Email: deld4@icloud.com
+
+Thank you for reading my post.

@@ -63,10 +63,9 @@ I don't answer them because I want people who ask to get to know naturally while
 
 Here's my [GITHUB](https://github.com/rlapo213)!
 
-My English can be awkward. If there’s inconvenience, please send me an email so that I can fix that.
+My English can be awkward. If there’s My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
 
-Email : rlapo@naver.com
+Email: deld4@icloud.com
 
 Thank you for reading my post.
-
 

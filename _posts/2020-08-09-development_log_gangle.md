@@ -110,3 +110,9 @@ I think it was possible because my `senior` helped me even though he was partici
 - Add various obstacles and add a system to raise the tempo of the game
 
 - The goal is to add various cards so that can show various plays that were not seen in the running game
+
+My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
+
+Email: deld4@icloud.com
+
+Thank you for reading my post.

@@ -16,3 +16,9 @@ Second development log is Cyto!
 2020/7/2 ~ 2020/7/16
 
 After the midterm exam, I developed Cyto for two weeks.
+
+My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
+
+Email: deld4@icloud.com
+
+Thank you for reading my post.

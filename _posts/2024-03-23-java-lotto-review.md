@@ -113,10 +113,9 @@ I used Trie Data Structure.
 
 I solved this on my own. I'm proud of myself. Happy!
 
-My English can be awkward. If there’s inconvenience, please send me an email so that I can fix that.
+My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
 
-Email : rlapo@naver.com
+Email: deld4@icloud.com
 
 Thank you for reading my post.
-
 

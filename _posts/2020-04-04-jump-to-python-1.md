@@ -138,8 +138,8 @@ If you miss `the indentation`, Python will print out an `error message` or `unin
 
 
 
-My English can be awkward. If there's inconvenience, please send me an email so that I can fix that. 
+My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
 
-Email : rlapo@naver.com
+Email: deld4@icloud.com
 
-Thank you for reading my posts.
+Thank you for reading my post.

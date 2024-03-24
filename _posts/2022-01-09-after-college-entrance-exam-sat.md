@@ -31,13 +31,8 @@ As time goes by, I recognized that I'd all fucked up cause the mock test results
 
 **SHIT HAPPENED** Life is not easy. Working hard doesn't mean everything works. I should've done excellent. 
 
-## Future plans
+My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
 
+Email: deld4@icloud.com
 
-
-
-
-
-요즘어떻게사는지
-
-나의 계획
+Thank you for reading my post.
