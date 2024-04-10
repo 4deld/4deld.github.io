@@ -9,6 +9,12 @@ seo:
 
 ## POJO(Plain Old Java Object)
 
+Before we start to learn Spring, we were assigned the `POJO` task, an object designed in a way that is not dependent on the environment and technology, while remaining true to object-oriented principles, and can be recycled as needed. I thought this task was essential to learn Spring well and write codes that is `scalable and flexible to change`.
+
+## Java Lotto
+
+So, we studied POJO for two weeks, one assignment a week. first task was `Java Lotto`. Roughly, the task was to generate random numbers like a lottery and check if they matched the values entered by the user. I had to follow strict object-oriented principles and some functional requirements but it was difficult to write codes in accordance with the rules because I didn't know what exactly OOP is. I tried for about 20 hours but failed. Therefore I had no choice but to complete the assignment by copying Kokodak's code.
+
 My Code
 
 ```
@@ -108,10 +114,6 @@ int main() {
 	return 0;
 }
 ```
-
-I used Trie Data Structure.
-
-I solved this on my own. I'm proud of myself. Happy!
 
 My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
 
