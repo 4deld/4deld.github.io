@@ -9,111 +9,156 @@ seo:
 
 ## POJO(Plain Old Java Object)
 
-Before we start to learn Spring, we were assigned the `POJO` task, an object designed in a way that is not dependent on the environment and technology, while remaining true to object-oriented principles, and can be recycled as needed. I thought this task was essential to learn Spring well and write codes that is `scalable and flexible to change`.
+Before we start to learn Spring, we were assigned the `POJO` task, an object designed in a way that is not dependent on the environment and technology, while remaining true to `object-oriented principles`, and can be recycled as needed. I thought this task was essential to learn Spring well and write codes that is `scalable and flexible to change`.
 
-## Java Lotto
+## [Java Lotto](https://github.com/4deld/java-lotto)
 
-So, we studied POJO for two weeks, one assignment a week. first task was `Java Lotto`. Roughly, the task was to generate random numbers like a lottery and check if they matched the values entered by the user. I had to follow strict object-oriented principles and some functional requirements but it was difficult to write codes in accordance with the rules because I didn't know what exactly OOP is. I tried for about 20 hours but failed. Therefore I had no choice but to complete the assignment by copying Kokodak's code.
+So, we studied POJO for two weeks, one assignment a week. first task was `Java Lotto`. Roughly, the task was to generate random numbers like a lottery and check if they matched the values entered by the user. I had to follow strict `object-oriented principles` and some `functional requirements` but it was difficult to write codes in accordance with the rules because I didn't know what exactly `OOP` is. I tried for about 20 hours but failed. Therefore I had no choice but to complete the assignment by copying `Kokodak`'s code.
 
-My Code
 
+## [Code Review](https://github.com/TEAM-ALOM/java-lotto/pull/13)
+
+These are the `reviews` from one of my mentors.
+
+> It would be better to have additional `unit tests` for other domains.
+
+> View and Domain should be separated. `(MVC pattern)`
+
+```Java
+        validateBiggerThan0(Integer.parseInt(input));
+    }
+    private void validateInteger(final String input) {
+        if (!(input.matches("[+-]?\\d*(\\.\\d+)?"))) {
 ```
-#include<bits/stdc++.h>
-using namespace std;
-int n, tmp;
-string in;
-double ans;
 
-const int MX = 1000004;
-struct Node {
-	char k; //노드의 값
-	bool w; //단어 여부 boolean 값 (단어면 true)
-	vector<Node*>v; //알파벳 소문자 26개여서 배열로 관리하려고 했는데
-	//순회할 때랑 갈림길(=내 밑 알파벳이 2개 이상)인지 체크가 힘들어서 그냥 백터로 함
-};
+It looks like a regular expression to verify whether it is a number, but I think it would be better to save the regular expression as an `NUMBER_REGEX` constant rather than hardcoding it.
 
-Node* Root;
-int NodeCnt = 0;
-Node NodePool[MX];
-
-Node* CreateNode(char z) {
-	NodePool[NodeCnt].k = z;
-	NodePool[NodeCnt].w = false;
-	NodePool[NodeCnt].v.clear();
-	return &NodePool[NodeCnt++];
-}
-
-void init() {
-	Root = nullptr;
-	NodeCnt = 0;
-}
-
-void insert(string input) {
-	Node* ptr = Root;
-	for (int i = 0; i < input.size(); i++) {
-		char z = input[i];
-		bool flag = false;
-		for (auto& c : ptr->v) {
-			if (c->k == z) {  //이미 있어서 다음 칸으로 넘어가기
-				ptr = c;
-				flag = true;
-				break;
-			}
-		}
-		if (!flag) { //없어서 만들어야 하는 경우
-			ptr->v.push_back(CreateNode(z)); //만들고
-			ptr = ptr->v.back(); //넘어가기
-		}
-	}
-	ptr->w = true; //단어의 끝 표시
-}
-
-
-void traverse(Node* ptr, int cnt) {
-	tmp = 0;
-	if (ptr->v.size() > 1 || ptr->w) //(갈림길 or 단어면) 나의 다음 노드 cnt에 + 1
-		tmp += 1;
-	for (auto& c : ptr->v) {
-		traverse(c, cnt + tmp); //dfs
-	}
-	if (ptr->w) //내가 단어면 더해줌
-		ans += cnt;
-}
-
-int main() {
-	cin.tie(0);
-	ios::sync_with_stdio(0);
-	cout.tie(0);
-
-	//소수점 2자리 출력
-	cout.setf(ios::fixed);
-	cout.precision(2);
-
-	while (cin>>n) { //EOF    아니 cin.eof()로 했다가 틀렸음 뭐지 ,,
-		//초기화
-		ans = 0;
-		init(); 
-
-		//Root 설정
-		Root = CreateNode('R');
-
-		//입력받고 트리 형성
-		for (int i = 0; i < n; i++) {
-			cin >> in;
-			insert(in);
-		}
-
-		//순회
-		for (auto& c : Root->v) {
-			traverse(c, 1);
-		}
-
-		//출력
-		cout << round(ans/n*100)/100 << '\n';
-	}
-	return 0;
-}
+```Java
+            throw new IllegalArgumentException(NOT_A_NUMBER);
+        }
+    }
+    private void validateBiggerThan0(final int amount) {
 ```
+
+It's good that you wrote `the 0`, but it might be confused with `the O`, so I think it would be better to write it in `Zero`! or it would be good to show that it's a natural number test like a `validateNaturalNumber`.
+
+```Java
+        validateSix(numbers);
+        validateDuplicatedNumber(numbers);
+    }
+    private void validateSix(List<Integer> numbers) {
+```
+
+If the number of lotto changes, shouldn't the method name change as well? This means `losing refactoring tolerance`.
+I think we can change it like a `validateSize`.
+
+```Java
+        this.ticketNumber = amount / LOTTO_PRICE;
+    }
+
+    private void validateDivisibleBy1000(final int input) {
+```
+
+`validateDivisible` would be fine.
+
+```Java
+   public Lotto createNumbers() {
+        List<Integer> randomNumbers = new ArrayList<>(
+                Randoms.pickUniqueNumbersInRange(1, 45,
+                        6));
+        randomNumbers.sort(Comparator.naturalOrder());
+        return new Lotto(randomNumbers);
+    }
+```
+
+The method's name is `createNumbers`, but returning `the Lotto` doesn't seem appropriate. Also, `the LottoMachine` issues lottos according to the amount you put in, but it seems that the method of issuing only one lotto should not be exposed to `the outside world`.
+
+```Java
+   public class LottoMachine {
+    private static final int LOTTO_PRICE = 1_000;
+
+    private final List<Lotto> lottoArray = new ArrayList<>();
+```
+
+If you look at the `class name`, it seems that the focus was on lotto issuing. Therefore, does the class need to have the lottos information? The lottos seem to be good for the `Buyer` to own. I think it would be better to change class to the class that `simply issues lotto`. As an extension, it would be better to change the methods to `static`.
+
+```Java
+   public WinningNumbers(List<Integer> array, String bonusNumber) {
+        validate(array,bonusNumber);
+        this.array = array;
+        this.bonusNumber=Integer.parseInt(bonusNumber);
+    }
+```
+
+Just as Lotto received numbers as a `parameter`, it would be better for the class to receive `only numbers`. Validation that a string is a number must be done `outside` of its class. In the WinningNumbers class, it is contextually correct that `the numbers` are verified.
+
+```Java
+   import java.util.Arrays;
+
+public enum MatchedPlace {
+    ELSE(0,false,0),
+```
+
+`ELSE` is good, but I think naming `NONE` is also worth considering.  
+
+```Java
+public class Result {
+
+    public static Map<MatchedPlace, Integer> getMatchedDetails(LottoArray lottoArray, WinningNumbers winningNumbers) {
+```
+
+If you give a `LottoArray`, additional dismantling process is required inside, and there is a hassle of making an additional LottoArray even when testing.
+Why don't you get the parameters as `Lotto, WinningNumberers`?
+
+```Java
+    public static String readMoney() {
+        System.out.println("구입금액을 입력해 주세요.");
+        return Console.readLine();
+    }
+    public static List<Integer> readWinningArray() {
+        System.out.println();
+        System.out.println("당첨 번호를 입력해 주세요.");
+        final String input = Console.readLine();
+
+        return Parser.parseByDelimiter(input,",");
+    }
+    public static String readBonusNumber() {
+        System.out.println();
+        System.out.println("보너스 번호를 입력해 주세요.");
+        return Console.readLine();
+    }
+```
+
+I think it would be good to check if the value entered in is a number in `this section`.
+
+## Feedback
+
+This is the `feedback` that one of my mentors gave to people.
+
+- Read `README.md` carefully. Some people are missing requirements or don't have a functional documentation.
+
+- Think about `other exceptions` besides those listed. I think the basic of programming is `not to trust the client`. What if there were cases in which negative numbers were entered, or only strings were entered?
+
+- Do not abbreviate `variable names`.
+
+- Comply with `coding and committing conventions`.
+
+- Use `Collection` rather than Array. Collection is good to utilize various `APIs`.
+
+- View codes written by `others`. You can search, or see codes written by other team members. Implementation is important, but it's also very helpful to see and analyze codes written by others.
+
+- Use `constants` without hardcoding.
+
+- The overall writing of the `test codes` was lacking or inadequate. The test code is as important as `production code`, so be sure to write it during this week's mission.
+
+## References
+
+[Object Calisthenics](https://jamie95.tistory.com/99)
+
+[Unit test1](https://mangkyu.tistory.com/143)
+
+[Unit test2](https://mangkyu.tistory.com/144)
+
 
 My English might be awkward. If you have any inconvenience, please send me an email so that I can correct it.
 
