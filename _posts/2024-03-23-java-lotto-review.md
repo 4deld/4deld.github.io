@@ -24,7 +24,7 @@ These are the `reviews` from one of my mentors.
 
 > View and Domain should be separated. `(MVC pattern)`
 
-```Java
+```java
         validateBiggerThan0(Integer.parseInt(input));
     }
     private void validateInteger(final String input) {
@@ -33,7 +33,7 @@ These are the `reviews` from one of my mentors.
 
 It looks like a regular expression to verify whether it is a number, but I think it would be better to save the regular expression as an `NUMBER_REGEX` constant rather than hardcoding it.
 
-```Java
+```java
             throw new IllegalArgumentException(NOT_A_NUMBER);
         }
     }
@@ -42,7 +42,7 @@ It looks like a regular expression to verify whether it is a number, but I think
 
 It's good that you wrote `the 0`, but it might be confused with `the O`, so I think it would be better to write it in `Zero`! or it would be good to show that it's a natural number test like a `validateNaturalNumber`.
 
-```Java
+```java
         validateSix(numbers);
         validateDuplicatedNumber(numbers);
     }
@@ -52,7 +52,7 @@ It's good that you wrote `the 0`, but it might be confused with `the O`, so I th
 If the number of lotto changes, shouldn't the method name change as well? This means `losing refactoring tolerance`.
 I think we can change it like a `validateSize`.
 
-```Java
+```java
         this.ticketNumber = amount / LOTTO_PRICE;
     }
 
@@ -61,7 +61,7 @@ I think we can change it like a `validateSize`.
 
 `validateDivisible` would be fine.
 
-```Java
+```java
    public Lotto createNumbers() {
         List<Integer> randomNumbers = new ArrayList<>(
                 Randoms.pickUniqueNumbersInRange(1, 45,
@@ -73,7 +73,7 @@ I think we can change it like a `validateSize`.
 
 The method's name is `createNumbers`, but returning `the Lotto` doesn't seem appropriate. Also, `the LottoMachine` issues lottos according to the amount you put in, but it seems that the method of issuing only one lotto should not be exposed to `the outside world`.
 
-```Java
+```java
    public class LottoMachine {
     private static final int LOTTO_PRICE = 1_000;
 
@@ -82,7 +82,7 @@ The method's name is `createNumbers`, but returning `the Lotto` doesn't seem app
 
 If you look at the `class name`, it seems that the focus was on lotto issuing. Therefore, does the class need to have the lottos information? The lottos seem to be good for the `Buyer` to own. I think it would be better to change class to the class that `simply issues lotto`. As an extension, it would be better to change the methods to `static`.
 
-```Java
+```java
    public WinningNumbers(List<Integer> array, String bonusNumber) {
         validate(array,bonusNumber);
         this.array = array;
@@ -92,7 +92,7 @@ If you look at the `class name`, it seems that the focus was on lotto issuing. T
 
 Just as Lotto received numbers as a `parameter`, it would be better for the class to receive `only numbers`. Validation that a string is a number must be done `outside` of its class. In the WinningNumbers class, it is contextually correct that `the numbers` are verified.
 
-```Java
+```java
    import java.util.Arrays;
 
 public enum MatchedPlace {
@@ -101,7 +101,7 @@ public enum MatchedPlace {
 
 `ELSE` is good, but I think naming `NONE` is also worth considering.  
 
-```Java
+```java
 public class Result {
 
     public static Map<MatchedPlace, Integer> getMatchedDetails(LottoArray lottoArray, WinningNumbers winningNumbers) {
@@ -110,7 +110,7 @@ public class Result {
 If you give a `LottoArray`, additional dismantling process is required inside, and there is a hassle of making an additional LottoArray even when testing.
 Why don't you get the parameters as `Lotto, WinningNumberers`?
 
-```Java
+```java
     public static String readMoney() {
         System.out.println("구입금액을 입력해 주세요.");
         return Console.readLine();
