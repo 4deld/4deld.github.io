@@ -4,7 +4,7 @@ date: 2024-03-23 17:26:19 +0900
 categories: [Alom Spring Course, POJO]
 tags: [java]
 seo:
-  date_modified: 2024-04-10 17:46:53 +0900
+  date_modified: 2024-04-11 04:04:08 +0900
 ---
 
 ## POJO(Plain Old Java Object)
