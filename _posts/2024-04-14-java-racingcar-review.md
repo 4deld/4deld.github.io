@@ -33,7 +33,7 @@ How to write codes while keeping the MVC pattern
 
 
 
-## [Code Review](https://github.com/TEAM-ALOM/java-lotto/pull/13)
+## [Code Review](https://github.com/TEAM-ALOM/java-racingcar/pull/41)
 
 
 

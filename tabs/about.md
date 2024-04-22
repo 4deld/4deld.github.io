@@ -10,7 +10,7 @@ title: About
 
 ## Introduction
 
-Hi, I am a sophomore of **Sunrin Internet High School**.
+Hi, I graduated `Sunrin Internet High School` and 
 
 I'm Korean, living in Seoul.
 
