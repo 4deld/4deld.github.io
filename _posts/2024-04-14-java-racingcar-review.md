@@ -4,7 +4,7 @@ date: 2024-04-14 22:34:19 +0900
 categories: [Alom Spring Course, POJO]
 tags: [java]
 seo:
-  date_modified: 2024-04-22 19:25:30 +0900
+  date_modified: 2024-04-25 23:17:18 +0900
 ---
 
 ## What I learned from two references
