@@ -17,17 +17,17 @@ I couldn't understand all the contents of the post, but I learned one thing. An 
 
 [`MVC pattern`](https://www.youtube.com/watch?v=ogaXW6KPc8I)
 
-How to write codes while keeping the MVC pattern
+How to write codes while keeping the `MVC pattern`
 
- - Rule 1: Model should not depend on Controller and View. (There should not be code related to Controller and View inside Model.)
+ - Rule 1: `Model` should not depend on `Controller` and `View`. (There should not be code related to Controller and View inside Model.)
 
- - Rule 2: View should only depend on Model, not Controller. (There should only be code related to Model and no code related to Controller inside View.)
+ - Rule 2: `View` should only depend on `Model`, not `Controller`. (There should only be code related to Model and no code related to Controller inside View.)
 
- - Rule 3: The data that View receives from Model should be data that should be displayed differently for each user.
+ - Rule 3: `The data` that `View` receives from `Mode`l should be data that should be displayed `differently` for each user.
 
-  - Rule 4: Controller can depend on Model and View. (There can be code related to Model and View inside Controller.)
+  - Rule 4: `Controller` can depend on `Model` and `View`. (There can be code related to Model and View inside Controller.)
 
- - Rule 5: When View receives data from Model, it must receive data from Model through Controller.
+ - Rule 5: When `View` receives data from `Model`, it must receive data from `Model` through `Controller`.
 
 ## [Java Racingcar](https://github.com/4deld/java-racingcar)
 
